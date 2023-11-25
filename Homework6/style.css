@@ -5,6 +5,19 @@
     color: darkslategray;
 }
 
+header,
+nav,
+article,
+footer {
+    border: 1px solid black;
+}
+
+nav {
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
 h4 {
     color: rgb(9, 181, 43);
 }
@@ -113,8 +126,8 @@ p::first-letter {
 
 .text-block {
     position: absolute;
-    bottom: 50px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
     background-color: black;
     color: white;
     padding-left: 20px;
